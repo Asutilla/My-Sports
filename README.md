@@ -151,7 +151,7 @@ Contributions, issues and feature requests are welcome. Feel free to open an iss
 
 ## 📄 License
 
-No license has been added yet. If you plan to share or reuse this project, add a `LICENSE` file (for example [MIT](https://choosealicense.com/licenses/mit/)).
+No license has been added yet. 
 
 ---
 
