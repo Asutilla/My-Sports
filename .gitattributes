@@ -1,0 +1,13 @@
+# Normalize line endings so the project builds on Windows, macOS and Linux
+* text=auto
+
+# Gradle wrapper scripts must keep LF endings or they fail on Unix
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.sh text eol=lf
+
+# Binary assets
+*.jar binary
+*.png binary
+*.webp binary
+*.jpg binary

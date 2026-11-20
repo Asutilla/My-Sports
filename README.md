@@ -51,7 +51,7 @@ All sport data is bundled locally in `SportsRepository` — the app works comple
 ## 📂 Project structure
 
 ```
-MySports/
+My-Sports/
 ├── app/
 │   ├── src/
 │   │   ├── main/
@@ -86,15 +86,15 @@ MySports/
 ### Requirements
 
 - [Android Studio](https://developer.android.com/studio) (a version that supports AGP 9.5.1)
-- **JDK 17** or newer
+- **JDK 17** or newer — Gradle automatically downloads the JDK 25 it uses for its daemon
 - Android SDK Platform **37**
 - An emulator or a physical device running **Android 7.0 (API 24)** or newer
 
 ### Clone and run
 
 ```bash
-git clone https://github.com/<your-username>/MySports.git
-cd MySports
+git clone https://github.com/Asutilla/My-Sports.git
+cd My-Sports
 ```
 
 Open the folder in Android Studio and let Gradle sync, or build from the command line:
