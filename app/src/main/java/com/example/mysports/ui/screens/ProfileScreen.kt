@@ -27,7 +27,7 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Profile Fragment",
+            text = "Profile",
             style = MaterialTheme.typography.headlineLarge,
             fontWeight = FontWeight.Medium,
             color = MaterialTheme.colorScheme.onBackground

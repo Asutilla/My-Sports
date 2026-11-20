@@ -16,14 +16,14 @@ class NavigationTest {
     val composeTestRule = createComposeRule()
 
     @Test
-    fun verifyHomeFragmentDisplayedByDefault() {
+    fun verifyHomeScreenDisplayedByDefault() {
         composeTestRule.setContent {
             MySportsTheme {
                 MainScreen()
             }
         }
 
-        composeTestRule.onNodeWithText("Home Fragment").assertIsDisplayed()
+        composeTestRule.onNodeWithText("Welcome to My Sports!").assertIsDisplayed()
     }
 
     @Test
@@ -36,11 +36,11 @@ class NavigationTest {
 
         // Click Account tab
         composeTestRule.onNodeWithText("Account").performClick()
-        composeTestRule.onNodeWithText("Account Fragment").assertIsDisplayed()
+        composeTestRule.onNodeWithText("Account Settings").assertIsDisplayed()
 
         // Click Profile tab
         composeTestRule.onNodeWithText("Profile").performClick()
-        composeTestRule.onNodeWithText("Profile Fragment").assertIsDisplayed()
+        composeTestRule.onNodeWithText("User Profile").assertIsDisplayed()
 
         // Click My Sports tab
         composeTestRule.onNodeWithText("My Sports").performClick()
